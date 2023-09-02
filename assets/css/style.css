@@ -1,0 +1,69 @@
+body {
+  background-color: beige;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+  height: 70vh;
+  border: 5px solid black;
+  background-color: rgb(210, 200, 200);
+}
+
+.container .titulo {
+  width: 100%;
+}
+
+.container .agregartarea {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 7vh;
+}
+
+.container .agregartarea #input {
+  width: 60%;
+  height: 60%;
+}
+
+.resultados .conteo {
+  width: 100%;
+  height: 40vh;
+}
+
+
+
+#btn {
+  background-color: green;
+  width: 15%;
+  height: 72%;
+}
+
+
+
+input[type="checkbox"] {
+  -webkit-appearance: initial;
+  appearance: initial;
+  background: rgb(224, 221, 221);
+  width: 30px;
+  height: 30px;
+  border: none;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background: red;
+}
+
+input[type="checkbox"]:checked:after {
+  content: "X";
+  color: #fff;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
